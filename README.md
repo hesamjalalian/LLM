@@ -90,6 +90,28 @@ This project serves as a practical foundation to explore LLM-based email automat
 
 ---
 
+## 🔧 From-Scratch Rule-Based Model
+
+In addition to using pretrained language models, this project includes a rule-based from-scratch version of the email reply generator. This approach is ideal for lightweight, offline scenarios where model loading is impractical. It provides consistent, deterministic outputs and is easy to audit or customize, especially in sensitive business or regulatory environments. By using clear if-else logic tied to keywords, this model ensures rapid, reliable, and resource-efficient replies.
+
+You can find the implementation in the file: `LLM_from_scratch.py`  
+Below are some example emails fed into the rule-based model, each followed by its generated reply in red:
+
+| Sender  | Email Content and AI Reply |
+|---------|-----------------------------|
+| Alice   | I'm interested in your product but need more information about pricing and support. Can you help me?<br><br><span style="color:red;">Reply:<br>Dear Alice,<br><br>Thank you for your interest. I'd be happy to provide more details about pricing and support.<br><br>Best regards,<br>Your AI Assistant</span> |
+| Bob     | The charts are not loading on the dashboard. Could you please check this issue?<br><br><span style="color:red;">Reply:<br>Dear Bob,<br><br>Sorry for the inconvenience. We're looking into the issue and will resolve it shortly.<br><br>Best regards,<br>Your AI Assistant</span> |
+| Charlie | Thank you for the great service! I had a wonderful experience with your team.<br><br><span style="color:red;">Reply:<br>Dear Charlie,<br><br>You're very welcome! We're glad to hear that.<br><br>Best regards,<br>Your AI Assistant</span> |
+| Diana   | Can you provide the delivery schedule for my recent order?<br><br><span style="color:red;">Reply:<br>Dear Diana,<br><br>I'll check the delivery schedule and get back to you.<br><br>Best regards,<br>Your AI Assistant</span> |
+| Ethan   | I would like to upgrade my subscription plan. What are the options available?<br><br><span style="color:red;">Reply:<br>Dear Ethan,<br><br>We offer several subscription plans. I’ll send you more details shortly.<br><br>Best regards,<br>Your AI Assistant</span> |
+| Fiona   | I encountered a bug in the mobile app when trying to upload photos.<br><br><span style="color:red;">Reply:<br>Dear Fiona,<br><br>Sorry for the inconvenience. We're looking into the issue and will resolve it shortly.<br><br>Best regards,<br>Your AI Assistant</span> |
+| George  | Do you offer any discounts for annual subscriptions?<br><br><span style="color:red;">Reply:<br>Dear George,<br><br>Yes, we offer discounts. I’ll provide you the latest options.<br><br>Best regards,<br>Your AI Assistant</span> |
+| Hannah  | Please cancel my membership effective immediately.<br><br><span style="color:red;">Reply:<br>Dear Hannah,<br><br>Your cancellation request has been processed.<br><br>Best regards,<br>Your AI Assistant</span> |
+| Ian     | Is there a way to integrate your service with third-party tools like Zapier?<br><br><span style="color:red;">Reply:<br>Dear Ian,<br><br>Yes, we support integration with Zapier and other tools.<br><br>Best regards,<br>Your AI Assistant</span> |
+| Jane    | I am interested in attending the upcoming webinar. How do I register?<br><br><span style="color:red;">Reply:<br>Dear Jane,<br><br>You can register through our website. I’ll share the link.<br><br>Best regards,<br>Your AI Assistant</span> |
+
+---
+
 ## Setup Instructions
 
 To run the email automation script successfully, please follow these steps:
