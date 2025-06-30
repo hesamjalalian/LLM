@@ -1,0 +1,42 @@
+[
+  {
+    "sender": "Alice",
+    "email": "I'm interested in your product but need more information about pricing and support. Can you help me?"
+  },
+  {
+    "sender": "Bob",
+    "email": "The charts are not loading on the dashboard. Could you please check this issue?"
+  },
+  {
+    "sender": "Charlie",
+    "email": "Thank you for the great service! I had a wonderful experience with your team."
+  },
+  {
+    "sender": "Diana",
+    "email": "Can you provide the delivery schedule for my recent order?"
+  },
+  {
+    "sender": "Ethan",
+    "email": "I would like to upgrade my subscription plan. What are the options available?"
+  },
+  {
+    "sender": "Fiona",
+    "email": "I encountered a bug in the mobile app when trying to upload photos."
+  },
+  {
+    "sender": "George",
+    "email": "Do you offer any discounts for annual subscriptions?"
+  },
+  {
+    "sender": "Hannah",
+    "email": "Please cancel my membership effective immediately."
+  },
+  {
+    "sender": "Ian",
+    "email": "Is there a way to integrate your service with third-party tools like Zapier?"
+  },
+  {
+    "sender": "Jane",
+    "email": "I am interested in attending the upcoming webinar. How do I register?"
+  }
+]
