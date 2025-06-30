@@ -90,4 +90,14 @@ This project serves as a practical foundation to explore LLM-based email automat
 
 ---
 
+## Setup Instructions
+
+To run the email automation script successfully, please follow these steps:
+
+1. Ensure the `sample_emails.json` file is located **in the same directory** as the Python script (`email_automation.py`).
+
+2. The script will automatically load this JSON file at runtime to read the sample emails.
+
+---
+
 *Thank you for exploring the LLM Email Automation project.*
